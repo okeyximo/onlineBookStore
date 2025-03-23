@@ -13,14 +13,12 @@ public class BaseResponse<T> {
     private T data;
     private ErrorResponse error;
 
-    // Constructor for success responses
     public BaseResponse(T data) {
         this.success = true;
         this.data = data;
         this.error = null;
     }
 
-    // Constructor for error responses
     public BaseResponse(ErrorResponse error) {
         this.success = false;
         this.data = null;

@@ -8,7 +8,6 @@ import com.example.bookstore.entity.User;
 import com.example.bookstore.mapper.EntityMapper;
 import com.example.bookstore.service.OrderService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.web.bind.annotation.*;
 

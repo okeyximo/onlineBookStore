@@ -33,7 +33,6 @@ public class BookSpecification {
             if (year != null) {
                 predicates.add(criteriaBuilder.equal(root.get("yearOfPublication"), year));
             }
-
             return criteriaBuilder.and(predicates.toArray(new Predicate[0]));
         };
     }
