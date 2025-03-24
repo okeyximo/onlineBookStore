@@ -3,8 +3,6 @@
 
 A modern online bookstore application built with Spring Boot, providing secure user authentication, efficient book management, and seamless shopping cart functionality. Data is automatically initialized from a CSV file on startup.
 
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
-![H2 Database](https://img.shields.io/badge/H2-003545?style=for-the-badge&logo=h2&logoColor=white)
 
 ## ✨ Features
 
